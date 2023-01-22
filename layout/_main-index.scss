@@ -1,0 +1,177 @@
+.section-titulo {
+    color: $color-base;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 75px;
+    text-shadow: 0px 4px 4px #fcfafa40;
+    background-color: #292828;
+        p {
+            color: rgb(173, 164, 212);
+            text-align: center;
+            margin-top: 5px;
+            font-size: 25px;
+            font-family: $font-base;
+            text-shadow: none;
+                
+        }
+}
+.keyboard {
+    .encabezado-img {
+        background-image: url(../assets/img/teclado.jpg);
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+        color: rgb(179, 115, 56);
+        text-shadow: #DBDBDB;
+    }
+        p {
+            font-size: $size-regular;
+            color: $color-base;
+        }
+        h2 {
+            font-size: 50px;
+            padding: $size-regular;
+            text-shadow: rgba(255, 255, 255, 0.521), (0.26);
+        }
+        .but-key {
+            margin-top: $size-regular;
+            min-width: 130px;
+            height: 40px;
+            color: $color-secundario;
+            padding: 5px 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            display: inline-block;
+            outline: none;
+            border: 2px solid #495057;
+            background: #495057;
+            &:hover {
+                background: $color-secundario;
+                color: #495057
+            }
+        }
+        
+    }
+
+    .parrafo__responsive {
+        color: rgb(173, 164, 212);
+        text-align: center;
+        margin-top: 5px;
+        font-size: 25px;
+        font-family: $font-base;
+        text-shadow: none;
+    }
+
+    .sobre-nosotros {
+        display: flex;
+        background-color: #292828;
+        padding-bottom: $size-regular;
+        margin-bottom: 30px;
+        .nuestro-producto {
+            margin-top: $size-regular;
+        }
+        .setup {
+            display: flex;
+            img {
+                flex-direction: row;
+                width: 50%;
+                height: auto;
+                padding: 0 5px 5px 5px;
+            }
+        }
+    }
+
+    .productos {
+        
+        .titulo-pro {
+            text-align: center;
+            margin-top: $size-regular;
+            padding-top: 10px;
+            font-family: 'Arial';
+            font-weight: 579;
+            font-size: 30px;
+            color: #495057;
+            background: #ECE9E6; 
+            background: -webkit-linear-gradient(to left, $color-base, #ECE9E6);  
+            background: linear-gradient(to left, $color-base, #ECE9E6);
+            }
+            .container-nosotros {
+                @include flex-basic; 
+                background: #ECE9E6;  
+                background: -webkit-linear-gradient(to left, $color-base, #ECE9E6);  
+                background: linear-gradient(to left, $color-base, #ECE9E6); 
+                padding-bottom: $size-regular;
+                padding-top: $size-regular;
+                .img-pc {
+                    width: 50%;
+                }
+            }
+            .productos-texto {
+                margin-left: 25px;
+                h3 {
+                    margin-bottom: 15px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: rgb(52, 42, 99);
+                }
+                p {
+                    padding: 0px 0px 30px 15px;
+                    font-weight: 300;
+                    text-align: justify;
+                    font-family: $font-base;
+                    color: #000000;
+                    text-shadow: none;
+                    font-size: 15px;
+                    font-weight: 478;
+                }
+                h3 span {
+                    background: rgb(109, 97, 163);
+                    color: $color-secundario;
+                    border-radius: 50%;
+                    display: inline-block;
+                    text-align: center;
+                    width: 30px;
+                    height: 30px;
+                    padding: 2px;
+                    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+                    margin-right: 5px;
+                }
+            }
+}
+
+        .section-card {
+            .list-container {
+                display: flex;
+                justify-content: center;
+                justify-content: space-around;
+                margin-top: 40px;
+            }
+            .iconos {
+                height: 50px;
+            }
+            .delivery {
+                text-align: center;
+                h4 {
+                    font-size: $size-regular;
+                }
+            }
+            .verified {
+                text-align: center;
+                h4 {
+                    @extend .delivery
+                }
+            }
+            .support {
+                text-align: center;
+                h4 {
+                    @extend .delivery
+            }
+        }
+    }

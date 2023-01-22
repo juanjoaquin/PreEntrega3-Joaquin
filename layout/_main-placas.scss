@@ -1,0 +1,79 @@
+.encabezado {
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(0, 5, 5);
+    .encabezado-container {
+        img {
+            width: 100%;
+        }
+        .placas-img {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            height: auto;
+        }
+    }
+    .placas-titulo {
+        font-size: 55px;
+        color: rgb(255, 255, 255);
+    }
+    p {
+        margin-top: 9px;
+        color: rgb(245, 245, 245);
+    }
+}
+.nvidia-section {
+    text-align: center;
+    background-color: rgb(2, 2, 2);
+    .nvidia-container {
+        p {
+            color: $color-base;
+        }
+        .nvidia-titulo {
+            color: rgb(26, 224, 92);
+            font-weight: 400;
+            font-family: 'Open Sans';
+            font-size: 55px;
+        }
+        .nvidia-img {
+            @include columna-flex;
+            padding-top: 15px;
+            .rtx {
+                margin-top: 15px;
+                width: 60%;
+                cursor: pointer;
+            }
+            .rtx-1 {
+                margin: 15px 0 0 0;
+                width: 70%;
+                cursor: pointer;
+            }
+            .rtx-2 {
+                @extend .rtx
+            }
+        }
+    }
+}
+.amd-container {
+    .amd-titulo {
+        color: rgb(224, 26, 26);
+        font-weight: 400;
+        font-family: 'Open Sans';
+        font-size: 55px;
+    }
+    .amd-img {
+        @include columna-flex;
+        padding-top: 15px;
+        .amd {
+            @extend .rtx
+        }
+        .amd-1 {
+            margin: 15px 0 0 0;
+            width: 60%;
+            cursor: pointer;
+        }
+        .amd-2 {
+            @extend .amd-1
+        }
+    }
+}

@@ -1,0 +1,244 @@
+/* -------RESPONSIVE: 780px TABLET: header ----------- */
+
+@media screen and (max-width: 780px) {
+    /* -------RESPONSIVE: 780px TABLET: header ----------- */
+    .header {
+        nav {
+            .nav-links {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+            
+        }
+        .user-img {
+            display: flex;
+            width: 10%;
+        }
+    }
+    .btn {
+        display: none;
+    }
+    /* -------RESPONSIVE: 780px TABLET: index.html ----------- */
+    .section-titulo {
+        .titulo {
+            font-size: 45px;
+            text-align: center;
+        }
+        p {
+            font-size: 13px;
+            text-align: center;
+            width: 90%;
+            margin: auto;
+        }
+        .setup {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 95%;
+            }
+        }
+    }
+    .productos {
+        .container-nosotros {
+            display: flex;
+            flex-direction: column;
+            .productos-texto {
+                margin-top: 5%;
+                margin-right: 5%;
+            }
+            .img-pc {
+                width: 90%;
+            }
+        }
+    }
+    .keyboard {
+        width: 100%;
+        .encabezado-img {
+            h2 {
+                text-align: center;
+                font-size: 3em;
+            }
+            p {
+                text-align: center;
+                font-size: 0.9em;
+            }
+        }
+    }
+    .section-card {
+        .list-container {
+            flex-direction: column;
+            height: auto;
+            width: 100%;
+            margin-bottom: 30%;
+        }
+    }
+.teclado-container {
+    width: 100%;
+    p {
+        text-align:start;
+        width: 60%;
+        top: 35%;
+        margin: auto;
+        font-size: 20px;
+    }
+    .titulo-teclado {
+        top: 20%;
+        text-align: center;
+        font-size: 3rem;
+        left: 11%;
+        
+    }
+}
+}
+
+/* ---------- RESPONSIVE: FOOTER ------------ */
+
+@media screen and (max-width: 780px) { 
+    
+    .footer-index {
+        .footer-col {
+            width: 50%;
+            margin-bottom: 30px;
+        }
+        .footer-key {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    }
+    .footer-index {
+        margin-top: 10%;
+    }
+    .footer-key {
+        .footer-col {
+            width: 50%;
+            margin-bottom: 30px;
+        }
+        .footer-key {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    }
+    .footer-index {
+        margin-top: 10%;
+    }
+}
+
+ /* -------RESPONSIVE: 320px MOBILE ----------- */
+
+@media screen and (max-width: 320px) {
+    
+    .header {
+        nav {
+            .nav-links {
+                display: flex;
+                flex-direction: column;
+                font-size: small;
+            }
+            
+        }
+
+    }
+    .footer-index {
+        .container {
+            .row {
+                
+                .footer-col {
+                    width: 100%;
+                    padding: 0 15px;
+                    margin-bottom: 30px;
+                }
+                
+            }
+        }
+    }
+    .footer-key {
+        .container {
+            .row {
+                
+                .footer-col {
+                    width: 100%;
+                    padding: 0 15px;
+                    margin-bottom: 30px;
+                }
+                
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .header {
+        .btn {
+            width: 30%;
+            display: none;
+        }
+    }
+    .teclado-container {
+        width: 100%;  
+        p {
+            text-align: center;
+            width: 60%;
+            top: 35%;
+            margin: auto;
+            font-size: 20px;
+        }
+        .titulo-teclado {
+            top: 20%;
+            text-align: center;
+            font-size: 3rem;
+            width: 100% !important;
+        }
+    }
+    .section-titulo {
+        .parrafo {
+            text-align: center;
+            color: wheat;
+            font-size: 12px;
+        }
+        .titulo {
+            font-size: 45px;
+            text-align: center;
+        }
+        
+    }
+    .sobre-nosotros {
+        .nuestro-producto {
+            .setup {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                img {
+                    width: 95%;
+                }
+            }
+        }
+    }
+    .section-card {
+        .list-container {
+            flex-direction: column;
+            height: auto;
+            width: 100%;
+            margin-bottom: 30%;
+        }
+    }
+    .productos {
+        .container-nosotros {
+            display: flex;
+            flex-direction: column;
+            .img-pc {
+                width: 80%;
+            }
+            .productos-texto {
+                margin-top: 5%;
+                margin-right: 5%;
+            }
+        }
+    }
+}

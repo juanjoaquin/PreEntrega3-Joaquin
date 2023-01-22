@@ -1,0 +1,221 @@
+/* ------------------- FOOTER PAGINA: index.html ----------------*/
+
+.footer-index {
+    .container {
+        background-color: #434343;
+        width: 100%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .row  {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-col {
+        width: 25%;
+        padding: 0 15px;
+        ul {
+            list-style: none;
+        }
+        h4 {
+            margin-top: 5px;
+            font-size: 18px;
+            color: $color-terciario;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+            font-weight: 500;
+            position: relative;
+            &::before {
+                position: absolute;
+                left: 0;
+                bottom: -10px;
+                background-color: #9c9c9c;
+                height: 2px;
+                box-sizing: border-box;
+                width: 50px;
+            }
+        }
+        ul li:not(:last-child) {
+            margin-bottom: 10px;
+        }
+        ul li a {
+            font-size: 16px;
+            text-transform: capitalize;
+            color: $color-base;
+            text-decoration: none;
+            font-weight: 300;
+            color: #bbbbbb;
+            display: inline-block;
+            transition: all 0.3s ease;
+            &:hover {
+                color: $color-base;
+                padding-left: 8px;
+            }
+        }
+        .social-links {
+            a {
+                display: inline-block;
+                height: 40px;
+                width: 40px;
+                background-color: rgba(255, 255, 255, 0.2);
+                margin: 0 10px 10px 0;
+                text-align: center;
+                line-height: 40px;
+                border-radius: 50%;
+                color: $color-base;
+                &:hover {
+                    color: #24262b;
+                    background-color: $color-base;
+                }
+            }
+        }
+    }
+}
+
+/* ------------------- FOOTER GENERAL ----------------*/
+
+.container {
+    background-color: #434343;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+.row  {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+    ul {
+        list-style: none;
+    }
+    h4 {
+        margin-top: 5px;
+        font-size: 18px;
+        color: $color-terciario;
+        text-transform: capitalize;
+        margin-bottom: 30px;
+        font-weight: 500;
+        position: relative;
+        &::before {
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background-color: #9c9c9c;
+            height: 2px;
+            box-sizing: border-box;
+            width: 50px;
+        }
+    }
+    ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    ul li a {
+        font-size: 16px;
+        text-transform: capitalize;
+        color: $color-base;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: inline-block;
+        transition: all 0.3s ease;
+        &:hover {
+            color: $color-base;
+            padding-left: 8px;
+        }
+    }
+    .social-links {
+        a {
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            color: $color-base;
+            &:hover {
+                color: #24262b;
+                background-color: $color-base;
+            }
+        }
+    }
+}
+
+/* ------------------- FOOTER PAGINA: contacto.html ----------------*/
+
+.footer-contacto {
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    .container {
+        @extend .container
+    }
+    .row  {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-col {
+        width: 25%;
+        padding: 0 15px;
+        ul {
+            list-style: none;
+        }
+        h4 {
+            margin-top: 5px;
+            font-size: 18px;
+            color: $color-terciario;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+            font-weight: 500;
+            position: relative;
+            &::before {
+                position: absolute;
+                left: 0;
+                bottom: -10px;
+                background-color: #9c9c9c;
+                height: 2px;
+                box-sizing: border-box;
+                width: 50px;
+            }
+        }
+        ul li:not(:last-child) {
+            margin-bottom: 10px;
+        }
+        ul li a {
+            font-size: 16px;
+            text-transform: capitalize;
+            color: $color-base;
+            text-decoration: none;
+            font-weight: 300;
+            color: #bbbbbb;
+            display: inline-block;
+            transition: all 0.3s ease;
+            &:hover {
+                color: $color-base;
+                padding-left: 8px;
+            }
+        }
+        .social-links {
+            a {
+                display: inline-block;
+                height: 40px;
+                width: 40px;
+                background-color: rgba(255, 255, 255, 0.2);
+                margin: 0 10px 10px 0;
+                text-align: center;
+                line-height: 40px;
+                border-radius: 50%;
+                color: $color-base;
+                &:hover {
+                    color: #24262b;
+                    background-color: $color-base;
+                }
+            }
+        }
+    }
+}

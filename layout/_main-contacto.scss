@@ -1,0 +1,83 @@
+.body-contacto {
+    background-color: #cacaca;
+}
+.section-contacto {
+    .container-contacto {
+        width: 80%;
+        margin: 50px auto;
+        .contacto-titulo {
+            margin-bottom: 10px;
+            font-size: 35px;
+        }
+    }
+    p {
+        margin-bottom: 10px;
+    }
+    .contacto {
+        display: flex;
+        background: $color-secundario;
+        .contacto-left {
+            flex-basis: 60%;
+            padding: 40px 60px;
+            h2 {
+                color: #1c00b5;
+                font-weight: 600;
+                margin-bottom: 30px;
+            }
+            .input-row {
+                display: flex;
+                justify-content: space-between;
+                margin-top: $size-regular;
+                .input-group {
+                    flex-basis: 45%;
+                }
+            }
+        }
+    }
+    input {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        outline: none;
+        padding-bottom: 5px;
+    }
+    textarea {
+        @include textarea-base;
+        box-sizing: border-box;
+        resize: none;
+    }
+    .labelito {
+        padding-top: $size-regular;
+    }
+    .btn-contacto {
+        background: #1c00b5;
+        width: 100px;
+        border: none;
+        outline: none;
+        color: $color-base;
+        height: 35px;
+        border-radius: 30px;
+        margin-top: $size-regular;
+        box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+    }
+    label {
+        @include label-general;
+        color: #1c00b5;
+    }
+    .contacto-right {
+        flex-basis: 40%;
+        padding: 40px;
+        background: #1c00b5;
+        color: $color-secundario;
+        h2 {
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        tr td:first-child {
+            padding-right: 20px;
+        }
+        tr td {
+            padding-top:$size-regular ;
+        }
+    }
+}

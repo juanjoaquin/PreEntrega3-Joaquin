@@ -1,0 +1,24 @@
+@mixin flex-basic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin columna-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin label-general {
+    margin-bottom: 6px;
+    display: block;
+    padding: 5px
+}
+
+@mixin textarea-base {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+}

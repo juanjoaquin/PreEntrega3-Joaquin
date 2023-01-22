@@ -1,0 +1,96 @@
+.teclado-container {
+    background-image: url(../assets/img/key-img.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    width: 100%;
+    h1 {
+        color: rgb(248, 228, 189);
+        align-items: center;
+        top: 35%;
+        position: absolute;
+        font-weight: 550;
+        font-family: $font-base;
+        font-size: 75px;
+        text-shadow: 4px 2px 16px rgba(0,0,0,0.42);
+    }
+    p {
+        color: rgb(248, 248, 248);
+        position: relative;
+        top: 55%;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 4px 2px 16px rgba(221, 221, 221, 0.42);
+    }
+}
+
+.cards {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    margin: 50px auto;
+    .card {
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, .2);
+    }
+    img {
+        width: 100%;
+    }
+    .contenide {
+        text-align: center;
+        padding: 10px;
+        h2 {
+            margin-top: 5px;
+            letter-spacing: 1.5px;
+            color: #333;
+        }
+        h3 {
+            font-size: 17px;
+            color: #5c5c5c;
+            letter-spacing: 1.5px;
+        }
+        p {
+            margin-top: 10px;
+            color: #5c5c5c;
+        }
+        a {
+            margin-top: 10px;
+            text-decoration: none;
+            display: inline-block;
+            background-color: #d9563f;
+            color: $color-secundario;
+            font-size: 17px;
+            padding: 5px 18px;
+            border-radius: 40px;
+            letter-spacing: 1.5px;
+            &:hover {
+                background-color: #db7d7d;
+                transition: 0.2s ease;
+            }
+        }
+        .btn-pro {
+            padding: 10px 50px;
+            font-size: 17px;
+            background-color: rgb(12, 0, 0);
+            color: $color-base;
+            border: none;
+            border-radius: 5px;
+            margin-top: 9px;
+            cursor: pointer;
+            &:hover {
+                border: 2px solid rgb(12, 0, 0);
+                color: rgb(12, 0, 0);
+                background: transparent;
+            }
+        }
+    }
+    
+}
+span {
+    font-family: $font-base;
+    font-size: $size-regular;
+    font-weight: bolder;
+}
