@@ -1,4 +1,4 @@
-# SUMMIT GAMING :tw-1f3ae:
+# SUMMIT GAMING :computer_mouse:
 > Summit gaming es un proyecto destinado a la venta de productos gamers para computadoras, o para consolas.
 Especializado mucho más en relación a los que son las computadoras, y sus componentes, como por ejemplo: teclados mecánicos, placas de video de la marca NVIDIA y AMD, juegos, etc. 
 > Con una página simple, pero producida especialmente para que el cliente tenga todo al alcance de la vista, y facilitarle su búsqueda.
