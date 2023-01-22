@@ -46,6 +46,6 @@ Especializado mucho más en relación a los que son las computadoras, y sus comp
 
 ---
 
-## Licencia :tw-1f4cb: :
+## Licencia :page_facing_up: :
 
 > Este proyecto está bajo la Licencia de **Summit gaming**
